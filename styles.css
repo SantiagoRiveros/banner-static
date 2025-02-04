@@ -1,0 +1,49 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* header {
+  padding: 10px 0;
+
+} */
+
+.navbar-brand {
+  font-weight: bold;
+  color: #32aaf6;
+}
+
+/* .navbar input {
+  width: 250px;
+}
+ */
+.carousel-item img {
+  height: 650px;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 950px;
+  }
+}
+
+/* Ajusta el contenedor */
+.input-group {
+  position: relative;
+}
+
+/* Estilo del input */
+.search-input {
+  padding-right: 45px; /* Espacio para el ícono */
+}
+
+/* Estilo del botón de búsqueda */
+.search-button {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Ajusta según necesites */
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
